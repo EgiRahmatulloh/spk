@@ -216,7 +216,9 @@ const ResultsTable = ({ results, criteria, weights }) => {
               </tr>
             </thead>
             <tbody className="bg-white divide-y divide-gray-200">
-              {results.map((result) => (
+              {results
+                .sort((a, b) => a.rank - b.rank)
+                .map((result) => (
                 <tr key={result.id} className={result.rank <= 3 ? 'bg-yellow-50' : ''}>
                   <td className="px-6 py-4 whitespace-nowrap">
                     <div className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium border ${getRankBadgeColor(result.rank)}`}>
