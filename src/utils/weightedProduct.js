@@ -226,7 +226,7 @@ export const SAMPLE_DATA = [
   {
     id: 1,
     nama_toko: 'Anitechtoko', // A1: Target skor 4,5,2,4,5,5
-    harga: 77500,     // C1=4 (Rp 77.001-79.000)
+    harga: 77950,     // C1=4 (Rp 77.001-79.000)
     rating: 4.9,      // C2=5 (>4.8)
     terjual: 500,     // C3=2 (100-999)
     ulasan: 95.5,     // C4=4 (94%-97%)
@@ -236,7 +236,7 @@ export const SAMPLE_DATA = [
   {
     id: 2,
     nama_toko: 'everlastinggift', // A2: Target skor 5,5,4,4,4,5
-    harga: 80000,     // C1=5 (>Rp 79.000)
+    harga: 79900,     // C1=5 (>Rp 79.000)
     rating: 4.9,      // C2=5 (>4.8)
     terjual: 7500,    // C3=4 (5.000-10.000)
     ulasan: 95.5,     // C4=4 (94%-97%)
@@ -246,7 +246,7 @@ export const SAMPLE_DATA = [
   {
     id: 3,
     nama_toko: 'VS_DJAKARTA', // A3: Target skor 5,5,2,5,4,3
-    harga: 80500,     // C1=5 (>Rp 79.000)
+    harga: 81000,     // C1=5 (>Rp 79.000)
     rating: 4.9,      // C2=5 (>4.8)
     terjual: 800,     // C3=2 (100-999)
     ulasan: 98,       // C4=5 (>97%)
@@ -256,7 +256,7 @@ export const SAMPLE_DATA = [
   {
     id: 4,
     nama_toko: 'ONE BOYS ACC', // A4: Target skor 3,4,2,2,4,4
-    harga: 76000,     // C1=3 (Rp 75.001-77.000)
+    harga: 75000,     // C1=3 (Rp 75.001-77.000)
     rating: 4.6,      // C2=4 (4.5-4.8)
     terjual: 300,     // C3=2 (100-999)
     ulasan: 87,       // C4=2 (85%-89%)
@@ -266,7 +266,7 @@ export const SAMPLE_DATA = [
   {
     id: 5,
     nama_toko: 'La Vare', // A5: Target skor 1,4,5,4,4,4
-    harga: 72000,     // C1=1 (<Rp 73.000)
+    harga: 73000,     // C1=1 (<Rp 73.000)
     rating: 4.6,      // C2=4 (4.5-4.8)
     terjual: 12000,   // C3=5 (>10.000)
     ulasan: 95.5,     // C4=4 (94%-97%)
